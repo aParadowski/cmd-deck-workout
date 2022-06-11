@@ -1,0 +1,34 @@
+{
+  "name": "cmd-deck-workout",
+  "version": "1.0.0",
+  "description": "A small TS application for doing a deck workout when a gym just isn't available",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aParadowski/cmd-deck-workout.git"
+  },
+  "author": "AJ Paradowski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aParadowski/cmd-deck-workout/issues"
+  },
+  "homepage": "https://github.com/aParadowski/cmd-deck-workout#readme",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "typescript": "^4.7.3"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.41",
+    "@typescript-eslint/eslint-plugin": "^5.27.1",
+    "@typescript-eslint/parser": "^5.27.1",
+    "eslint": "^8.17.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.30.0",
+    "eslint-plugin-react-hooks": "^4.5.0"
+  }
+}
