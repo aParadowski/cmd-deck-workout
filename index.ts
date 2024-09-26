@@ -1,3 +1,7 @@
+import Deck from './src/deck/deck';
+
+const shuffledDeck = new Deck(false);
+
 const readline = require('readline').createInterface({
   input: process.stdin,
   output: process.stdout,

@@ -1,8 +1,12 @@
-interface CardValue {
-  value: number;
+// interface CardValue {
+//   value: number;
+// }
+
+export interface Suit {
+  name: string;
 }
 
 export interface Card {
-  suit: String;
-  value: CardValue;
+  suit: Suit;
+  value: number;
 }
